@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+    <link rel="stylesheet" href="./style.css">
+    <!--Link Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- marquee section -->
+    <div class="marquee">
+        <p class="marquee-info">Sign Up and <b>GET 20% OFF</b> for your first Order</p>
+        <p class="marquee-close"><i class="fa-solid fa-xmark fa-lg" style="color: #ece9f3;"></i></p>
+    </div>
+    <!-- navbar -->
+    <div class="navbar">
+        <h2 class="navbar_logo">Nostra</h2>
+        <div class="navbar_menus">
+            <a href="./index.html">Home</a>
+            <a href="">New Arrival</a>
+            <a href="">Most Wanted</a>
+            <a href="./collections.html">Collections</a>
+            <a href="./contact.html">Contact us</a>
+        </div>
+        <div class="navbar-mob__menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <!-- collection -->
+    <div class="container">
+        <div class="collections-section">
+            <div class="collections-filter">
+                <div class="occasion-filter">
+                    <h2 class="filter-title">Occasion</h2>
+                    <ul id="hold-filters">
+                        <li class="filter-option"><input type="checkbox" class="box" value="summer" id="summer">
+                            <p class="option-name">Summer</p>
+                        </li>
+                        <li class="filter-option"><input type="checkbox" class="box" value="party" id="Party">
+                            <p class="option-name">Party</p>
+                        </li>
+                        <li class="filter-option"><input type="checkbox" class="box" value="beach" id="Beach">
+                            <p class="option-name">Beach</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="color-filter">
+                    <h2 class="filter-title">Colors</h2>
+                    <ul id="hold-filters">
+                        <li class="filter-option"><input type="checkbox" class="box" value="red" id="Red">
+                            <p class="option-name">Red</p>
+                        </li>
+                        <li class="filter-option"><input type="checkbox" class="box" value="blue" id="Blue">
+                            <p class="option-name">Blue</p>
+                        </li>
+                        <li class="filter-option"><input type="checkbox" class="box" value="white" id="White">
+                            <p class="option-name">White</p>
+                        </li>
+                        <li class="filter-option"><input type="checkbox" class="box" value="green" id="Green">
+                            <p class="option-name">Green</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="arrival-filter">
+                    <h2 class="filter-title">Arrivals</h2>
+                    <ul id="hold-filters">
+                        <li class="filter-option"><input type="checkbox" class="box" value="new" id="New">
+                            <p class="option-name">New</p>
+                        </li>
+                        <li class="filter-option"><input type="checkbox" class="box" value="old" id="Old">
+                            <p class="option-name">Old</p>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collection-divide">
+
+            </div>
+            <div class="collection-view">
+                <div class="collection-search">
+                    <input class="input-search" type="text" placeholder="search">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+                <div class="collection-products">
+                    <div class="most_wanted_card">
+                        <img class="most_wanted_card-img" src="./images/collections/f1.jpg" alt="">
+                        <h3 class="most_wanted_card-name">Floral Summer Shirt</h3>
+                        <p>₹220</p>
+                        <tags style="visibility:hidden;">new,blue,summer</tags>
+                    </div>
+                    <div class="most_wanted_card">
+                        <img class="most_wanted_card-img" src="./images/collections/f2.jpg" alt="">
+                        <h3 class="most_wanted_card-name">Summer Green</h3>
+                        <p>₹360</p>
+                        <tags style="visibility:hidden;">new,green,beach</tags>
+                    </div>
+                    <div class="most_wanted_card">
+                        <img class="most_wanted_card-img" src="./images/collections/f3.jpg" alt="">
+                        <h3 class="most_wanted_card-name">Party Floral Shirt</h3>
+                        <p>₹599</p>
+                        <tags style="visibility:hidden;">old,red,party</tags>
+                    </div>
+                    <div class="most_wanted_card">
+                        <img class="most_wanted_card-img" src="./images/collections/f4.jpg" alt="">
+                        <h3 class="most_wanted_card-name">Floral Summer Shirt</h3>
+                        <p>₹650</p>
+                        <tags style="visibility:hidden;">old,white,beach</tags>
+                    </div>
+                    <div class="most_wanted_card">
+                        <img class="most_wanted_card-img" src="./images/collections/f5.jpg" alt="">
+                        <h3 class="most_wanted_card-name">Beach Shirt</h3>
+                        <p>₹350</p>
+                        <tags style="visibility:hidden;">old,white,beach</tags>
+                    </div>
+                    <div class="most_wanted_card">
+                        <img class="most_wanted_card-img" src="./images/collections/f6.jpg" alt="">
+                        <h3 class="most_wanted_card-name">Shirt Party Red</h3>
+                        <p>₹400</p>
+                        <tags style="visibility:hidden;">old,red,party</tags>
+                    </div>
+                    <div class="most_wanted_card">
+                        <img class="most_wanted_card-img" src="./images/collections/f1.jpg" alt="">
+                        <h3 class="most_wanted_card-name">Party Floral Shirt</h3>
+                        <p>₹500</p>
+                        <tags style="visibility:hidden;">old,red,party</tags>
+                    </div>
+                    <div class="most_wanted_card">
+                        <img class="most_wanted_card-img" src="./images/collections/f2.jpg" alt="">
+                        <h3 class="most_wanted_card-name">Shirt Party Red</h3>
+                        <p>₹399</p>
+                        <tags style="visibility:hidden;">old,red,party</tags>
+                    </div>
+                    <div class="most_wanted_card">
+                        <img class="most_wanted_card-img" src="./images/collections/f3.jpg" alt="">
+                        <h3 class="most_wanted_card-name">Floral Summer Shirt</h3>
+                        <p>₹799</p>
+                        <tags style="visibility:hidden;">new,blue,summer</tags>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- news Letter -->
+    <div class="news_letter">
+        <h2 class="news_letter-title"> Join our News Letter</h2>
+        <p class="news_letter-desc">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+        <input class="news_letter-input" type="text">
+        <br>
+        <button class="news_letter-button">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <h2 class="footer-title">Nostra</h2>
+        <p class="footer-desc">The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those
+            interest</p>
+        <div class="icons">
+            <a href="#" class="icon"><i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-twitter fa-xl" style="color: #e7eaee;"></i></a>
+            <a href="#" class="icon"><i class="fab fa-facebook-f fa-xl" style="color: #ffffff;"></i></a>
+        </div>
+        <p class="footer-copy">
+            @ 2025 Nostra.com
+        </p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

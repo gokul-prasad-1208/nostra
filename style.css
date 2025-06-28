@@ -1,0 +1,558 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.marquee {
+    background-color: #1D232C;
+    text-align: center;
+    padding: 7px;
+    width: 100%;
+}
+
+.marquee-info {
+    color: #E2E1E1;
+    display: inline-block;
+    font-size: 1.5vw;
+}
+
+.marquee-close {
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+}
+
+.navbar_menus {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.navbar_menus a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-mob__menu {
+    display: none;
+}
+
+.container {
+    margin: 0% 1% 0% 1%;
+}
+
+.banner {
+    margin-bottom: 50px;
+}
+
+.banner-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.banner-image {
+    position: relative;
+}
+
+.banner-content {
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    color: white;
+}
+
+.banner-content h2 {
+    font-size: 5vw;
+    margin-bottom: 10px;
+}
+
+.banner-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+}
+
+.section-title {
+    margin-bottom: 25px;
+}
+
+.section-title h3 {
+    font-size: 25px;
+}
+
+.Brand-card p {
+    font-size: 2vw;
+}
+
+.Brand-card img {
+    width: 5vw;
+}
+
+.Brands-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-Experiences {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.customer-exp-sec_one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.customer-exp-sec_one p {
+    font-size: 20px;
+}
+
+.customer-exp-sec_one h2 {
+    font-size: 30px;
+    width: 27%;
+}
+
+.customer-exp-sec_two {
+    display: flex;
+    gap: 1%
+}
+
+.expirences-card {
+    background-color: #F2F4F7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.expirences-card p {
+    font-size: 1vw;
+    margin-top: 3px;
+}
+
+.newarrivals_cards {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 50px;
+    place-items: center;
+    gap: 5%;
+}
+
+.newarrival_card {
+    position: relative;
+}
+
+.newarrival_card_img {
+    /* height: 300px; */
+    width: 100%;
+    filter: brightness(50%);
+    border-radius: 10px;
+
+}
+
+/* .newarrival_card_button {
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    display: block;
+    position: absolute;
+    top: 180px;
+    left: 50px;
+} */
+.newarrival_card_button {
+    border-radius: 10px;
+    padding: 1vw 1vw;
+    font-size: 1.5vw;
+    background-color: white;
+    border: none;
+    display: block;
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    right: 20%;
+}
+
+.most_wanted_card {
+    position: relative;
+}
+
+.most_wanted_card-img {
+    width: 20vw;
+}
+
+.most_wanted_card-like {
+    width: 4vw;
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+
+.most_wanted_card-tag {
+    background-color: red;
+    color: white;
+    padding: 7px 15px;
+    font-size: 2vw;
+    border: none;
+    border-radius: 7px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+}
+
+.most_wanted_cards {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.offer-section {
+    background-color: #1D232C;
+    margin-bottom: 50px;
+    padding: 4vw;
+    display: flex;
+}
+
+.offer-image {}
+
+.offer-info {
+    color: white;
+    padding: 4vw;
+}
+
+.offer-info-title {
+    font-size: 3vw;
+}
+
+.offer-info-desc {
+    font-size: 2vw;
+}
+
+.offer-info-button {
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+/* .offer_section-info {
+    color: white;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.offer_sec_info-title {
+    font-size: 45px;
+}
+
+.offer_sec_info-desc {
+    font-size: 28px;
+}
+
+.offer_sec_info-button {
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    display: block;
+    margin-top: 10px;
+} */
+
+.news_letter {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.news_letter-title {
+    font-size: 3vw;
+}
+
+.news_letter-desc {
+    font-size: 2vw;
+}
+
+.news_letter-input {
+    width: 80%;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.news_letter-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: #1D232C;
+    border: none;
+}
+
+.footer {
+    background-color: #1D232C;
+    color: white;
+    padding: 40px 50px 40px 40px;
+}
+
+.footer-title {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.footer-desc,
+.footer-copy {
+    font-size: 27px;
+    margin-bottom: 25px;
+}
+
+.icons {
+    display: flex;
+    padding: 20px;
+    width: 18%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.container-contact {
+    margin: 0% 12% 7% 12%;
+}
+
+.form-bg {
+    background-color: #1D232C;
+    color: #DDDDDD;
+    padding: 5vw;
+}
+
+
+.input-email,
+.input-name {
+    padding: 1.5vw;
+    border-radius: 5px;
+}
+
+.input-message {
+    padding: 3vw;
+    border-radius: 5px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-btn {
+    display: inline;
+    background-color: #0056B3;
+    margin: 1vw 1vw 1vw 0vw;
+    padding: 10px;
+    color: white;
+    font-size: 1.5vw;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.label {
+    margin: 0.5vw 0vw;
+}
+
+/* .form-box{
+padding: 5vw;
+border: 2px solid green;
+}
+.input-box{
+    padding: 2vw;
+    width: 100%;
+} */
+/* media query */
+
+
+/* collection - page */
+
+.collections-section {
+    border: 2px solid red;
+    padding: 1vw;
+    display: flex;
+}
+
+.collections-filter {
+    width: 20%;
+    border: 2px solid green;
+    padding: 1vw;
+}
+
+.filter-option {
+    display: flex;
+    gap: 10px;
+}
+
+.filter-title {
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+
+.option-name {
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+
+.collection-divide {
+    border: 1px solid #1D232C;
+    margin: 0px 10px;
+    padding: 1px;
+    background-color: #1D232C;
+    border-radius: 3px;
+}
+
+.collection-view {
+    border: 1px solid purple;
+    padding: 5px;
+    width: 100%;
+}
+
+.collection-search {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.input-search {
+    width: 97%;
+    border: none;
+}
+
+.input-search:focus {
+    outline: none;
+}
+.collection-products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid purple;
+    margin-top: 2vw;
+}
+
+.most_wanted_card-name{
+    font-size: 2vw;
+}
+
+
+@media screen and (min-width:600px) and (max-width:767px) {
+
+    .navbar_menus {
+        display: none;
+    }
+
+    .navbar-mob__menu {
+        display: block;
+        padding-right: 20px;
+    }
+
+    .marquee-info {
+        font-size: 1.5vw;
+    }
+
+    .banner-button {
+        margin-top: 10px;
+        padding: 6px 9px;
+    }
+
+    .customer-exp-sec_one h2 {
+        font-size: 3vw;
+        width: 46%;
+    }
+
+    .expirences-card__title {
+        font-size: 2vw;
+    }
+
+    .expirences-card__description {
+        font-size: 1.5vw;
+    }
+
+    .customer-Experiences {
+        margin-top: 7vw;
+        margin-bottom: 4vw;
+    }
+
+    .offer-image img {
+        width: 40vw;
+    }
+
+    .offer-info-button {
+        border-radius: 8px;
+        padding: 6px 10px;
+        font-size: 2vw;
+        background-color: white;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .footer-desc,
+    .footer-copy {
+        font-size: 3vw;
+        margin-bottom: 3vw;
+    }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .navbar_menus {
+        display: none;
+    }
+
+    .navbar-mob__menu {
+        display: block;
+        padding-right: 20px;
+    }
+
+    .customer-exp-sec_one h2 {
+        font-size: 3vw;
+        width: 30%;
+    }
+
+    .customer-Experiences {
+        margin-top: 7vw;
+        margin-bottom: 4vw;
+    }
+
+    .offer-image img {
+        width: 40vw;
+    }
+
+    .offer-info-button {
+        border-radius: 8px;
+        padding: 6px 10px;
+        font-size: 2vw;
+        background-color: white;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .footer-title {
+        font-size: 5vw;
+        margin-bottom: 4vw;
+    }
+
+    .footer-desc,
+    .footer-copy {
+        font-size: 3vw;
+        margin-bottom: 3vw;
+    }
+}
