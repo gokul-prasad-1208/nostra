@@ -8,7 +8,6 @@
     background-color: #1D232C;
     text-align: center;
     padding: 7px;
-    width: 100%;
 }
 
 .marquee-info {
@@ -31,7 +30,6 @@
     top: 0px;
     z-index: 1;
     background-color: white;
-    width: 100%;
 }
 
 .navbar_menus {
@@ -44,7 +42,9 @@
     text-decoration: none;
     color: black;
 }
-
+.navbar_menus a :hover{
+    text-decoration: underline;
+}
 .navbar-mob__menu {
     display: none;
 }
@@ -386,14 +386,12 @@ border: 2px solid green;
 /* collection - page */
 
 .collections-section {
-    border: 2px solid red;
     padding: 1vw;
     display: flex;
 }
 
 .collections-filter {
     width: 20%;
-    border: 2px solid green;
     padding: 1vw;
 }
 
@@ -421,7 +419,6 @@ border: 2px solid green;
 }
 
 .collection-view {
-    border: 1px solid purple;
     padding: 5px;
     width: 100%;
 }
@@ -440,10 +437,15 @@ border: 2px solid green;
 .input-search:focus {
     outline: none;
 }
+.fa-search:hover {
+    cursor: pointer;
+}
+.fa-xmark:hover {
+    cursor: pointer;
+}
 .collection-products{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 1px solid purple;
     margin-top: 2vw;
 }
 
@@ -509,6 +511,9 @@ border: 2px solid green;
         margin-bottom: 3vw;
     }
 
+    .input-search{
+        width: 95%;
+    }
 
 }
 
@@ -554,5 +559,9 @@ border: 2px solid green;
     .footer-copy {
         font-size: 3vw;
         margin-bottom: 3vw;
+    }
+
+    .input-search{
+        width: 95%;
     }
 }
