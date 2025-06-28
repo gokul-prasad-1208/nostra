@@ -3,6 +3,7 @@ const tagValue = document.getElementsByTagName('tags');
 var cards = document.querySelectorAll('.collection-products .most_wanted_card');
 
 
+
 var tags = Array.from(tagValue);
 filters = [];
 checkboxes.forEach(checkbox => {
@@ -43,5 +44,27 @@ function filterfunction(cards, filters) {
         }
     })
 }
+
+
+// search filter
+
+let searchitem = document.getElementById('search-filter')
+let searchValue = document.getElementById('searchProduct')
+if(searchitem){
+searchitem.addEventListener('click',function(){
+    let findItem = searchValue.value
+    Array(findItem)
+    filterfunction(cards, Array(findItem))
+})
+}
+
+//marquee close 
+
+let closeMarquee = document.getElementById('marquee-close')
+let marqueeElement = document.querySelector('.marquee')
+closeMarquee.addEventListener('click',function () {
+    marqueeElement.style.display ="none";
+    // console.log("hello")
+})
 
 
